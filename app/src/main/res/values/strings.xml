@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">МССП</string>
+    <string name="btnSignIn">Войти</string>
+    <string name="ETPassword">Пароль</string>
+    <string name="ETLogin">Логин</string>
+    <string name="btnSync">синхронизация</string>
+    <string name="btnIncidents">Инциденты</string>
+    <string name="btnWorkToday">работа на сегодня</string>
+    <string name="btnTakePhoto">сделать фото</string>
+    <string name="btnSendToWork">Отправить на устранение</string>
+
+    <string name="title_choose">Выбрать</string>
+    <string name="title_edit">Редактировать</string>
+    <string name="title_delete">Удалить</string>
+    <string name="title_addBrigada">Добавить члена бригады</string>
+
+
+    <string name="btnStartWork">Начать работу</string>
+    <string name="btnInstruction">Начать запись инструктажа</string>
+    <string name="btnPlay">Прослушать</string>
+    <string name="btnAudioNext">Далее</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#D3D3D3">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:text="наименование работы"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#EB4120"
+            android:id="@+id/textView2"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="всего по плану"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#EB4120"
+            android:id="@+id/textView3"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="50dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.45"
+            android:text="факт чел.ч."
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#EB4120"
+            android:id="@+id/textView"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="15dp"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListPlan">
+    </ListView>
+
+</LinearLayout>
